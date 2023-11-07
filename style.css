@@ -31,3 +31,7 @@ h4 {
 ul {
   margin-block-start: 0px
 }
+
+div.center {
+  text-align: center;
+}
