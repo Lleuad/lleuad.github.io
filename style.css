@@ -7,9 +7,12 @@ h1, h2 {
   border-bottom: solid #80808080 1px;
 }
 
+h2 {
+  margin-block-start: 2em;
+}
+
 h1, h2, h3 {
   font-variant: small-caps;
-  
 }
 
 h3, h4 {
