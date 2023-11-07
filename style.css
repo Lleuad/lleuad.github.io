@@ -1,6 +1,12 @@
+@media (width > 750px) {
+  body {
+    width: 50%;
+    min-width: 750px;
+    margin: auto;
+  }
+}
+
 body {
-  width: 50%;
-  margin: auto;
   font-family: Georgia
 }
 
