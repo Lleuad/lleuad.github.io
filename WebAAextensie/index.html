@@ -15,6 +15,8 @@
          <li>
             <a href="#changelog">Changelog</a>
             <ul>
+               <li><a href="#changelog22">2.2</a></li>
+               <li><a href="#changelog21">2.1</a></li>
                <li><a href="#changelog20">2.0</a></li>
                <li><a href="#changelog16">1.6</a></li>
                <li><a href="#changelog15">1.5</a></li>
@@ -35,16 +37,18 @@
          <li>Het "Medewerker"-veld wordt automatisch gevuld bij een nieuwe afspraak</li>
          <li>De "Medewerker"-, "Ruimte"- en "Handeling"-velden kleuren rood of groen als ze leeg resp. ingevuld zijn</li>
          <li>De pijltjestoetsen en Hometoets kunnen worden gebruikt voor navigatie</li>
+         <li>Mogelijkheid om klantkaart en andere overzichten te openen in tabgroep</li>
+         <li>Knop "Annuleren" en bij het verwijderen van een afspraak opent de agenda op de laatst geopende dag</li>
       </ul>
       
       <h3>Bestellingen</h3>
       <ul>
-         <li>In het overzicht zijn alle bestellingsregels standaard aangevinkt</li>
+         <li>In het overzicht zijn alle niet verzonden bestellingsregels standaard aangevinkt</li>
       </ul>
       
-      <h3>HP2</h3>
+      <h3>Hoorprotocol 2</h3>
       <ul>
-         <li>Hulp bij het invullen van de COSI scores (popup menu van de extensie)</li>
+         <li>Hulp bij het invullen van de COSI scores (popupmenu)</li>
       </ul>
       
       <h3>Intakeformulier</h3>
@@ -54,6 +58,9 @@
          <li>Verdiepende vragen worden verborgen als ze niet aan de orde zijn</li>
          <li>Ingevulde velden kleuren groen</li>
          <li>Standaard antwoorden op sommige vragen kunnen worden ingesteld</li>
+         <li>COSI doelen kunnen worden ingeladen uit recente HVL</li>
+         <li>Audiogramgegevens worden gebruikt voor het invullen van de "Beoordeling audiogram"</li>
+         <li>Checklist of alles in ingevuld (popupmenu)</li>
       </ul>
       
       <h3>Klantkaart</h3>
@@ -64,11 +71,14 @@
       <h3>Leveringsbonnen</h3>
       <ul>
          <li>De terugknop vanuit een leveringsbon of offerte gaan nu altijd terug naar het overzicht van de klant</li>
+         <li>Wizard voor het genereren van de pakketten (popupmenu)</li>
+         <li>Een herinnering om de bruikleenovereenkomst te printen als de voeging wordt berekend bij Achmea-klant</li>
       </ul>
       
       <h3>Memo's</h3>
       <ul>
          <li>Het memoveld heeft nu een spellingscontrole</li>
+         <li>Preview van memo in overzicht</li>
       </ul>
       
       <h3>Reparaties</h3>
@@ -84,6 +94,49 @@
       </ul>
       
       <h2 id="changelog">Changelog</h2>
+
+      <h3 id="changelog22">2.2:</h3>
+      <h4>Agenda</h4>
+      <ul>
+         <li>Optie voor openen klant in tabgroep</li>
+         <li>De volgorde van tabbladen in tabgroep zijn instelbaar</li>
+         <li>Knop "Annuleren" en verwijderen van afspraak gaan naar geselecteerde datum</li>
+      </ul>
+      
+      <h4>Hoorprotocol 2</h4>h4>
+      <ul>
+         <li>Popupmenu geeft aanwezige voorraad</li>
+      </ul>
+      
+      <h4>Intakeformulier</h4>
+      <ul>
+         <li>Autofill voor "Ervaring vorig toestel"</li>
+         <li>Autofill voor audiogram gegevens en leeftijd</li>
+      </ul>
+      
+      <h4>Memo's</h4>
+      <ul>
+         <li>Memo preview toegevoegd aan memo overzicht</li>
+      </ul>
+      
+      <h4>Bestellingen</h4>
+      <ul>
+         <li>Bugfix waar soms de bestellingen niet werden aangevinkt</li>
+         <li>Alleen nog te verzenden regels worden aangevinkt</li>
+      </ul>
+
+      <h3 id="changelog21">2.1:</h3>
+      <h4>Intakeformulier:</h4>
+      <ul>
+         <li>COSI doelen worden geladen uit de meest recente HVL niet ouder dan de ingestelde limiet (standaard 6 maanden)</li>
+         <li>Popup venster geeft checklist of alles is ingevuld</li>
+      </ul>
+      
+      <h4>Leveringsbonnen/Offertes:</h4>
+      <ul>
+         <li>Wizard in popup menu voor het inladen van de pakketten</li>
+         <li>Knop "rekenen" geeft een alert bij achmea-klant over bruikleenovereenkomst</li>
+      </ul>
       
       <h3 id="changelog20">2.0:</h3>
       <h4>Intakeformulier:</h4>
@@ -93,7 +146,7 @@
          <li>Autofill voor "Oorinspectie"</li>
       </ul>
       
-      <h4>Hoorprotocol2:</h4>
+      <h4>Hoorprotocol 2:</h4>
       <ul>
          <li>Popup venster geeft de minale COSI scores per domein en categorie weer</li>
       </ul>
@@ -157,7 +210,7 @@
       <h4>bugfix:</h4>
       <ul>
          <li>Klanten knop opende niet het klantoverzicht vanuit een kassaverkoop waar een klant aan gekoppeld is</li>
-         <li>Foutmelding bij verwijderen van intakeformulier dat `Tabs.offset().top` niet geldig is</li>
+         <li>Foutmelding bij verwijderen van intakeformulier dat <code>Tabs.offset().top</code> niet geldig is</li>
       </ul>
       
       <h3 id="changelog14">1.4:</h3>
