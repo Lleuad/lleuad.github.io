@@ -15,6 +15,7 @@
          <li>
             <a href="#changelog">Changelog</a>
             <ul>
+               <li><a href="#changelog25">2.4</a></li>
                <li><a href="#changelog24">2.4</a></li>
                <li><a href="#changelog23">2.3</a></li>
                <li><a href="#changelog22">2.2</a></li>
@@ -51,11 +52,14 @@
       <h3>Facturen</h3>
       <ul>
          <li>Uiteenzetting welke merken zijn verkocht in een bepaalde periode (popupmenu)</li>
+         <li>Snelkoppeling naar kassabon vanuit een factuur</li>
       </ul>
       
       <h3>Hoorprotocol 2</h3>
       <ul>
          <li>Hulp bij het invullen van de COSI scores (popupmenu)</li>
+         <li>Overzicht van aanwezige voorraad (popupmenu)</li>
+         <li>Optie om antwoorden van HVL Pre weer te geven in HVL Post</li>
       </ul>
       
       <h3>Intakeformulier</h3>
@@ -74,19 +78,22 @@
       <ul>
          <li>Wanneer de cursor op een niet nagekomen afspraakregel rust verschijnt de reden voor niet nakomen</li>
          <li>Kopieerbaar NAW overzicht voor verwijzing KNO/AC (popupmenu)</li>
+         <li>Preview van memo in overzicht</li>
       </ul>
       
       <h3>Leveringsbonnen</h3>
       <ul>
          <li>De terugknop vanuit een leveringsbon of offerte gaan nu altijd terug naar het overzicht van de klant</li>
          <li>Wizard voor het genereren van de pakketten (popupmenu)</li>
-         <li>Een herinnering om de bruikleenovereenkomst te printen als de voeging wordt berekend bij Achmea-klant</li>
+         <li>Open bruikleenovereenkomst printpagina na opslaan van de leveringsbon als de vergoeding is berekend bij Achmea-klant</li>
+         <li>Ga terug naar klant na verwijderen van leveringsbon/offerte vanuit de klant</li>
       </ul>
       
       <h3>Memo's</h3>
       <ul>
          <li>Het memoveld heeft nu een spellingscontrole</li>
          <li>Preview van memo in overzicht</li>
+         <li>Memo's staan gesorteerd op wijzigingsdatum</li>
       </ul>
       
       <h3>Reparaties</h3>
@@ -100,8 +107,44 @@
          <li>"Agenda", "Klanten", "Inkoop", "Verkoop" en "Artikelen" openen een standaard overzicht</li>
          <li>Het standaard aantal weergegeven regels in de verschillende tabellen is instelbaar</li>
       </ul>
+
       
       <h2 id="changelog">Changelog</h2>
+      <h3 id="changelog25">2.5:</h3>
+      <h4>Factuur</h4>
+      <ul>
+         <li>Knop naar kassa in factuur</li>
+      </ul>
+      <h4>HP2</h4>
+      <ul>
+         <li>Optie voor antwoorden HVL Pre in HVL Post</li>
+      </ul>
+      <h4>Intakeformulier</h4>
+      <ul>
+         <li>Corrigeert nu voor BG afwijking op 4k door ijking bij het berekenen van het type verlies</li>
+         <li>Popup onclick naar desbetreffende sectie</li>
+      </ul>
+      <h4>Klanten</h4>
+      <ul>
+         <li>Popup sluit bij kopiëren van de gegevens</li>
+         <li>Preview toegevoegd aan memo overzicht</li>
+      </ul>
+      <h4>Leveringsbon</h4>
+      <ul>
+         <li>Inruilkorting kan alleen geselecteerd worden bij PM</li>
+         <li>Na verwijderen terug naar klant</li>
+      </ul>
+      <h4>Memo's</h4>
+      <ul>
+         <li>sorteer op wijzigingsdatum</li>
+      </ul>
+      <h4>bugfix</h4>
+      <ul>
+         <li>Berekening leeftijd hoortoestellen soms een jaar te veel</li>
+         <li>Factuuroverzicht opent niet vanuit klant/facturen</li>
+         <li>Custom contextmenu ook in viewer verwijderd</li>
+      </ul>
+      
       <h3 ig="changelog24">2.4:</h3>
       <h4>Facturen</h4>
       <ul>
