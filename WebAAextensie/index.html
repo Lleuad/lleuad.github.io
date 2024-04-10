@@ -15,6 +15,7 @@
          <li>
             <a href="#changelog">Changelog</a>
             <ul>
+               <li><a href="#changelog26">2.6</a></li>
                <li><a href="#changelog251">2.5.1</a></li>
                <li><a href="#changelog25">2.5</a></li>
                <li><a href="#changelog24">2.4</a></li>
@@ -52,14 +53,11 @@
 
       <h3>Facturen</h3>
       <ul>
-         <li>Uiteenzetting welke merken zijn verkocht in een bepaalde periode (popupmenu)</li>
          <li>Snelkoppeling naar kassabon vanuit een factuur</li>
       </ul>
       
       <h3>Hoorprotocol 2</h3>
       <ul>
-         <li>Hulp bij het invullen van de COSI scores (popupmenu)</li>
-         <li>Overzicht van aanwezige voorraad (popupmenu)</li>
          <li>Optie om antwoorden van HVL Pre weer te geven in HVL Post</li>
       </ul>
       
@@ -72,22 +70,21 @@
          <li>Standaard antwoorden op sommige vragen kunnen worden ingesteld</li>
          <li>COSI doelen kunnen worden ingeladen uit recente HVL</li>
          <li>Audiogramgegevens worden gebruikt voor het invullen van de "Beoordeling audiogram"</li>
-         <li>Checklist of alles in ingevuld (popupmenu)</li>
       </ul>
       
       <h3>Klantkaart</h3>
       <ul>
          <li>Wanneer de cursor op een niet nagekomen afspraakregel rust verschijnt de reden voor niet nakomen</li>
-         <li>Kopieerbaar NAW overzicht voor verwijzing KNO/AC (popupmenu)</li>
          <li>Preview van memo in overzicht</li>
+         <li>Wanneer meerdere klantdossiers openstaan gebeurt het niet meer dat soms het dossier van een ander opent</li>
       </ul>
       
       <h3>Leveringsbonnen</h3>
       <ul>
          <li>De terugknop vanuit een leveringsbon of offerte gaan nu altijd terug naar het overzicht van de klant</li>
-         <li>Wizard voor het genereren van de pakketten (popupmenu)</li>
          <li>Open bruikleenovereenkomst printpagina na opslaan van de leveringsbon als de vergoeding is berekend bij Achmea-klant</li>
          <li>Ga terug naar klant na verwijderen van leveringsbon/offerte vanuit de klant</li>
+         <li>Optie om de "Klantvoorkeuren"-modaal automatisch te sluiten</li>
       </ul>
       
       <h3>Memo's</h3>
@@ -101,6 +98,21 @@
       <ul>
          <li>Bij klikken op de "Omschrijving"-tekst wordt deze geselecteerd</li>
       </ul>
+
+      <h3>Reservering</h3>
+      <ul>
+         <li>De eerste regel staat aangevinkt om toestellen gemakkelijker terug op voorraad te krijgen</li>
+      </ul>
+
+      <h3>Contextgebonden Pop-up Menu</h3>
+      <ul>
+         <li>Uiteenzetting welke merken zijn verkocht in een bepaalde periode (Verkoop &rarr; Factuuroverzicht)</li>
+         <li>Kopieerbaar NAW overzicht voor verwijzing KNO/AC (Klanten &rarr; Klantkaart)</li>
+         <li>Checklist of alles in ingevuld (Klanten &rarr; Intakeformulier)</li>
+         <li>Hulp bij het invullen van de COSI scores (Klanten &rarr; Hoorprotocol 2)</li>
+         <li>Overzicht van aanwezige voorraad (Klanten &rarr; Hoorprotocol 2; Artikelen &rarr; Artikellijst &rarr; Met serienummer)</li>
+         <li>Wizard voor het genereren van de pakketten (Klanten &rarr; Leveringsbon/Offerte)</li>
+      </ul>
       
       <h3>Overig</h3>
       <ul>
@@ -111,6 +123,35 @@
 
       
       <h2 id="changelog">Changelog</h2>
+
+      <h3 id="changelog26">2.6:</h3>
+      <h4>Agenda</h4>
+      <ul>
+         <li>Open ook vanuit dashboard in nieuw tab</li>
+      </ul>
+      <h4>HP2</h4>
+      <ul>
+         <li>Corrigeer klantdossier links wanneer meerdere klanten openstaan</li>
+      </ul>
+      <h4>Leveringsbon</h4>
+      <ul>
+         <li>Optie voor automatisch sluiten van de optin-modaal</li>
+         <li>Synck berekening ook uitvoerbaar als er geen IBAN bekend is</li>
+      </ul>
+      <h4>Pop-up menu</h4>
+      <ul>
+         <li>Voorraad overzicht ook bij winkelvoorraad</li>
+      </ul>
+      <h4>Reservering</h4>
+      <ul>
+         <li>Eerste regel is aangevinkt</li>
+      </ul>
+      <h4>bugfix</h4>
+      <ul>
+         <li>in intakeformulier werd datum niet als ingevult gemarkeerd wanneer de datumpicker werd gebruikt</li>
+         <li>in intakeformulier verdween de opmaak van sommige elementen wanneer de viewport veranderde</li>
+      </ul>
+      
       <h3 id="changelog251">2.5.1:</h3>
       <h4>Intakeformulier</h4>
       <ul>
