@@ -8,5 +8,20 @@
     <link rel="stylesheet" href="/style.css">
   </head>
   <body>
+    <canvas></canvas>
+    <script>
+    navigator.mediaDevices.getUserMedia({audio: true, video: false})
+    	.then(stream => {
+				const audioCtx = new AudioContext();
+				const analyser = audioCtx.createAnalyser();
+				const source = audioCtx.createMediaStreamSource(stream);
+				source.connect(analyser);
+    
+    		analyser.fftSize = 2048;
+				const bufferLength = analyser.frequencyBinCount;
+				const dataArray = new Uint8Array(bufferLength);
+        console.log(dataArray)
+      })
+    </script>
   </body>
 </html>
