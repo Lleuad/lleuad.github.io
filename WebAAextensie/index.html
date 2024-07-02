@@ -15,6 +15,7 @@
          <li>
             <a href="#changelog">Changelog</a>
             <ul>
+               <li><a href="#changelog27">2.6</a></li>
                <li><a href="#changelog26">2.6</a></li>
                <li><a href="#changelog251">2.5.1</a></li>
                <li><a href="#changelog25">2.5</a></li>
@@ -44,6 +45,7 @@
          <li>De pijltjestoetsen en Hometoets kunnen worden gebruikt voor navigatie</li>
          <li>Mogelijkheid om klantkaart en andere overzichten te openen in tabgroep</li>
          <li>Knop "Annuleren" en bij het verwijderen van een afspraak opent de agenda op de laatst geopende dag</li>
+         <li>Na handmatig aanpassen van afspraak duur blijft deze behouden</li>
       </ul>
       
       <h3>Bestellingen</h3>
@@ -77,6 +79,7 @@
          <li>Wanneer de cursor op een niet nagekomen afspraakregel rust verschijnt de reden voor niet nakomen</li>
          <li>Preview van memo in overzicht</li>
          <li>Wanneer meerdere klantdossiers openstaan gebeurt het niet meer dat soms het dossier van een ander opent</li>
+         <li>De abonnementen widget toont alle afgesloten pakketten en bij de kassa alleen de actieve</li>
       </ul>
       
       <h3>Leveringsbonnen</h3>
@@ -110,7 +113,7 @@
          <li>Kopieerbaar NAW overzicht voor verwijzing KNO/AC (Klanten &rarr; Klantkaart)</li>
          <li>Checklist of alles in ingevuld (Klanten &rarr; Intakeformulier)</li>
          <li>Hulp bij het invullen van de COSI scores (Klanten &rarr; Hoorprotocol 2)</li>
-         <li>Overzicht van aanwezige voorraad (Klanten &rarr; Hoorprotocol 2; Artikelen &rarr; Artikellijst &rarr; Met serienummer)</li>
+         <li>Overzicht van aanwezige voorraad, gesorteerd op merk voor eigen voorraad en op filiaal voor alle filialen (Artikelen &rarr; Voorraad &rarr; Met serienummer)</li>
          <li>Wizard voor het genereren van de pakketten (Klanten &rarr; Leveringsbon/Offerte)</li>
       </ul>
       
@@ -123,6 +126,42 @@
 
       
       <h2 id="changelog">Changelog</h2>
+      <h3 id="changelog27">2.7:</h3>
+      <h4>Klantkaart</h4>
+      <ul>
+         <li>Toon afgesloten pakketten in de Abonnementen widget</li>
+      </ul>
+      <h4>Kassa</h4>
+      <ul>
+         <li>Toon actieven pakketten</li>
+      </ul>
+      <h4>Facturen</h4>
+      <ul>
+         <li>Data verzameling voor het pop-up menu merkenoverzicht is significant sneller</li>
+         <li>Kassaknop nu ook wanneer de factuur wordt geopend vanuit het winkeloverzicht</li>
+      </ul>
+      <h4>Voorraad</h4>
+      <ul>
+         <li>Fuzzy zoekfunctie voor voorraad andere filialen (popup)</li>
+      </ul>
+      <h4>Agenda</h4>
+      <ul>
+         <li>Als eindtijd handmatig is aangepast, wordt deze gehandhaafd</li>
+         <li>Bij wijzigen van datum via de agena wordt de afspraak duur gehandhaafd</li>
+      </ul>
+      <h4>Klantkaart</h4>
+      <ul>
+         <li>Memo preview scrollt minder dan één pagina per keer</li>
+      </ul>
+      <h4>Overig</h4>
+      <ul>
+         <li>jQuery color geüpdatet van 2.1.2 naar 2.2.0</li>
+      </ul>
+      <h4>bugfix</h4>
+      <ul>
+         <li>Foutmelding bij verwijderen van memo gecorrigeerd</li>
+         <li>Kleuraanduiding wel/niet ingevulde afspraak velden verdwijnt niet meer na verandering van viewport</li>
+      </ul>
 
       <h3 id="changelog26">2.6:</h3>
       <h4>Agenda</h4>
